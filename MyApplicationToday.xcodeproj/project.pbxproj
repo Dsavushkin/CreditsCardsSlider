@@ -13,6 +13,9 @@
 		96B58B5023802DE60035A2B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B58B4E23802DE60035A2B3 /* Main.storyboard */; };
 		96B58B5223802DE60035A2B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B58B5123802DE60035A2B3 /* Assets.xcassets */; };
 		96B58B5523802DE60035A2B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B58B5323802DE60035A2B3 /* LaunchScreen.storyboard */; };
+		96B58B5D2380CE210035A2B3 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B58B5C2380CE210035A2B3 /* SwipingController.swift */; };
+		96B58B5F2380DB6F0035A2B3 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B58B5E2380DB6F0035A2B3 /* PageCell.swift */; };
+		96B58B612380F14E0035A2B3 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B58B602380F14E0035A2B3 /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		96B58B5123802DE60035A2B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96B58B5423802DE60035A2B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96B58B5623802DE60035A2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B58B5C2380CE210035A2B3 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		96B58B5E2380DB6F0035A2B3 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		96B58B602380F14E0035A2B3 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				96B58B4823802DE60035A2B3 /* AppDelegate.swift */,
 				96B58B4A23802DE60035A2B3 /* SceneDelegate.swift */,
 				96B58B4C23802DE60035A2B3 /* ViewController.swift */,
+				96B58B5C2380CE210035A2B3 /* SwipingController.swift */,
+				96B58B5E2380DB6F0035A2B3 /* PageCell.swift */,
 				96B58B4E23802DE60035A2B3 /* Main.storyboard */,
 				96B58B5123802DE60035A2B3 /* Assets.xcassets */,
 				96B58B5323802DE60035A2B3 /* LaunchScreen.storyboard */,
 				96B58B5623802DE60035A2B3 /* Info.plist */,
+				96B58B602380F14E0035A2B3 /* Page.swift */,
 			);
 			path = MyApplicationToday;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				96B58B4D23802DE60035A2B3 /* ViewController.swift in Sources */,
+				96B58B5F2380DB6F0035A2B3 /* PageCell.swift in Sources */,
+				96B58B612380F14E0035A2B3 /* Page.swift in Sources */,
 				96B58B4923802DE60035A2B3 /* AppDelegate.swift in Sources */,
 				96B58B4B23802DE60035A2B3 /* SceneDelegate.swift in Sources */,
+				96B58B5D2380CE210035A2B3 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43SN73XHLW;
+				DEVELOPMENT_TEAM = CK7QF6SQ3W;
 				INFOPLIST_FILE = MyApplicationToday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43SN73XHLW;
+				DEVELOPMENT_TEAM = CK7QF6SQ3W;
 				INFOPLIST_FILE = MyApplicationToday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
